@@ -1,0 +1,305 @@
+/*Navbar.js*/
+.app{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.navbar{
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.logoParent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo{
+  height: 8vh;
+  position: relative;
+  left: 10vw;
+}
+.stories{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3vh;
+  position: relative;
+  color: white;
+  left: 15vw;
+}
+.dashParent{
+  position: relative;
+  left: 11vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dash{
+  height: 7vh;
+  width: 0.1vw;
+  background-color: #FEC23F;
+}
+.coursesParent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.courses{
+  background-color: #FEC23F;
+  height: 7vh;
+  width: 130px;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 3vh;
+  right: 5vw;
+}
+/*Profile.js*/
+.profile{
+  height: 90vh;
+  width: 100%;
+  background-color: white;
+}
+.cover{
+  height: 50vh;
+  width: 100%;
+}
+.profilepicture{
+  height: 220px;
+  width: 220px;
+  border: 5px solid gray;
+  border-radius: 50%;
+}
+.pro{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 52vh;
+}
+.pro2{
+  position: relative;
+  display: flex;
+  left: 5vw;
+}
+.nameParent{
+  position: relative;
+  top: 10vh;
+  left: 5vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.name{
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-right: 70px;
+}
+.followParent{
+  display: flex;
+  margin-top: 10px;
+  gap: 30px;
+}
+.followers{
+  padding: 5px;
+  border: 3px solid gray;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.following{
+  padding: 5px;
+  border: 3px solid gray;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.followersParent{
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+.followingParent{
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+.profileInfo{
+  display: flex;
+  flex-direction: column;
+}
+.info{
+  position: relative;
+  margin-top: 50px;
+  left: 10vw;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  font-size: 20px;
+}
+.subDetails{
+  margin-right: 70px;
+}
+.iconDetails{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+a{
+  color:#00A9FF;
+}
+.icon img{
+  height: 30px;
+  width: 30px;
+}
+.icon{
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+.line{
+  display: flex;
+  width: 100%;
+}
+.line1{
+  height: 2px;
+  margin-left: 100px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.btnPosts{
+  height: 50px;
+  width: 100px;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid lightgrey;
+  border-bottom: 0;
+  border-left: 0;
+  background-color: white;
+  color: #00A9FF;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*post*/
+.post{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subPost{
+  display: flex;
+}
+.postTitle{
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  left: 3vw;
+}
+.thumbIcon{
+  position: absolute;
+  right: 5vw;
+}
+.postContent{
+  padding: 50px;
+  font-size: 20px;
+}
+.postFooter{
+  display: flex;
+  position: relative;
+  color: gray;
+  font-weight: 450;
+}
+.creator{
+  display: flex;
+  gap: 5px;
+  position: relative;
+  font-weight: bold;
+  color: black;
+  left: 50px;
+}
+.tag{
+  color:#00A9FF;
+}
+.time{
+  position: absolute;
+  right: 50px;
+}
+.postLine{
+  margin-top: 20px;
+  height: 2px;
+  background-color: lightgrey;
+}
+/*media query*/
+@media screen and (max-width: 590px) {
+  .info{
+    margin-top: 100px;
+  }
+  .btnPosts{
+    margin-top: 20vh;
+  }
+}
+@media screen and (max-width: 533px) {
+  .postFooter{
+    display: flex;
+    flex-direction: column;
+  }
+.time{
+  position: relative;
+  margin-top: 5px;
+  left: 5vw;
+}
+}
+@media screen and (max-width: 440px) {
+  
+  .pro2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 5vw;
+  }
+  .btnPosts{
+    margin-top: 65vh;
+  }
+  .iconDetails{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .postFooter{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+@media screen and (max-width: 360px) {
+  
+  .subPost{
+    display: flex;
+    flex-direction: column;
+  }
+  .thumbIcon{
+    position: relative;
+    margin-top: 5px;
+    left: 15vw;
+  }
+  .navbar{
+    height: 200px;
+  }
+  .coursesParent{
+    position: absolute;
+    left: 190px;
+    top: 160px;
+  }
+  
+}
