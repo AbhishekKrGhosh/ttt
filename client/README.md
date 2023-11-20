@@ -1,6 +1,16 @@
 # TERRIBLY TINY TALES ASSIGNMENT
 
-LIVE LINK [Profile Screen](https://655bb627d274461ba83deda9--iridescent-sorbet-16ee97.netlify.app/).
+LIVE LINK:  [Profile Screen](https://655bb627d274461ba83deda9--iridescent-sorbet-16ee97.netlify.app/).
+
+## Pictures:
+![Screenshot 2023-11-21 015144](https://github.com/AbhishekKrGhosh/ttt/assets/92973940/fdf0f8f9-a584-42d8-93ae-d2060e9b24eb)
+![Screenshot 2023-11-21 015936](https://github.com/AbhishekKrGhosh/ttt/assets/92973940/b1473154-9eb6-453b-9e0b-3c69518459bb)
+![Screenshot 2023-11-21 015951](https://github.com/AbhishekKrGhosh/ttt/assets/92973940/14386c46-2ddb-43d1-af54-b296f61313a7)
+
+## Responsiveness:
+
+![WhatsApp Image 2023-11-21 at 02 01 35](https://github.com/AbhishekKrGhosh/ttt/assets/92973940/e819d254-35be-4579-8606-07a3293168e1)
+
 
 ## How to use
 
