@@ -284,6 +284,7 @@ a{
 }
 @media screen and (max-width: 360px) {
   
+  
   .subPost{
     display: flex;
     flex-direction: column;

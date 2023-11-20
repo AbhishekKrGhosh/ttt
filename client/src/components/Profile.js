@@ -8,36 +8,37 @@ import tick from '../images/tick.png'
 import like from '../images/like.png'
 import thumb from '../images/thumb.png'
 
-function Profile(){
+
+function Profile(props){
     return(
         <div className="profile">
             <div className="coverParent">
-                <img className="cover" src={cover} alt="coverImage"/>
+                <img className="cover" src={props.cover} alt="coverImage"/>
             </div>
             <div className="pro">
                 <div className="pro2">
-                <img className="profilepicture" src={profile} alt="profilePic"/>
+                <img className="profilepicture" src={props.profile} alt="profilePic"/>
             
                 <div className="nameParent">
                 <div className="name">
-                    Anuj Gosalia
+                    {props.name}
                 </div>
                 <div className="followParent">
                     <div className="followersParent">
-                    <div className="followers">6482</div>Followers</div>
+                    <div className="followers">{props.followers}</div>Followers</div>
                     <div className="followingParent">
-                    <div className="following">245</div>Following</div>
+                    <div className="following">{props.following}</div>Following</div>
                 </div>
                 </div>
                 </div>
                 <div className="info">
-                    <div className="details"><div className="subDetails">Co-founder and CEO at Terribly Tiny Tales</div></div>
-                    <div className="link"> <a href="http://www.instagram.com/anujgosalia">http://www.instagram.com/anujgosalia</a></div>
+                    <div className="details"><div className="subDetails">{props.details}</div></div>
+                    <div className="link"> <a href={props.link}>{props.link}</a></div>
                     <div className="iconDetails">
-                    <div className="icon start"><img src={star}/>125</div>
-                    <div className="icon thumpsUp"><img src={thumb}/>12</div>
-                    <div className="icon eye"><img src={view}/>57.8K</div>
-                    <div className="icon like"><img src={like}/>26.0K</div>
+                    <div className="icon start"><img src={star}/>{props.star}</div>
+                    <div className="icon thumpsUp"><img src={thumb}/>{props.thumb}</div>
+                    <div className="icon eye"><img src={view}/>{props.view}</div>
+                    <div className="icon like"><img src={like}/>{props.like}</div>
                     </div>
                 </div>
             

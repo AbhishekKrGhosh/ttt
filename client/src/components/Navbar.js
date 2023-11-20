@@ -1,7 +1,7 @@
 import React from "react";
 import logo from '../images/logo.png'
 
-function Navbar(){
+function Navbar(props){
     return(
         <div className="navbar">
             <div className="logoParent">
