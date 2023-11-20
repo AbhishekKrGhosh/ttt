@@ -1,6 +1,6 @@
 # TERRIBLY TINY TALES ASSIGNMENT
 
-LIVE LINK [Profile Screen](https://github.com/facebook/create-react-app).
+LIVE LINK [Profile Screen](https://655bb627d274461ba83deda9--iridescent-sorbet-16ee97.netlify.app/).
 
 ## Available Scripts
 
